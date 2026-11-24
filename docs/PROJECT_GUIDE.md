@@ -401,23 +401,20 @@ Commit after each cohesive phase rather than one giant last-minute commit.
 
 ## 13. Screenshots and outputs
 
-The `images/` folder contains genuine screenshots of the actual workspace,
-sample text files, CLI result data, generated CSV, live Swagger UI, and live
-Next.js dashboard. Screenshots use synthetic project data and do not imply
-that a public GitHub repository or deployment exists.
+The `images/` folder contains genuine screenshots captured from the running
+Next.js dashboard and FastAPI Swagger UI. Dashboard screenshots use the bundled
+synthetic resumes and show the actual upload form, ranked results, scores,
+matched/missing skills, and CSV download control.
 
 | Screenshot | Evidence |
 |---|---|
-| `images/project-structure.png` | Actual project file listing. |
-| `images/github-ready-structure.png` | Actual Git index file list, excluding ignored environments and build artifacts. |
-| `images/sample-resumes.png` | Actual bundled synthetic resume text. |
-| `images/cli-ranking.png` | Actual CLI-generated candidate score results. |
-| `images/candidate-ranking.png` | Dashboard score, matches, and skill gaps. |
-| `images/matched-missing-skills.png` | One actual candidate result with matched and missing requirements. |
-| `images/csv-report.png` | The generated CSV report and ranked rows. |
+| `images/dashboard.png` | Main recruiter dashboard before upload. |
+| `images/resume-upload.png` | Job description, required skills, and selected synthetic resumes. |
+| `images/dashboard-results.png` | Dashboard after submitting all three synthetic resumes. |
+| `images/candidate-ranking.png` | Ranked candidate scores and review recommendations. |
+| `images/matched-missing-skills.png` | Candidate score with matched and missing requirements. |
+| `images/csv-report.png` | CSV download control on the populated results page. |
 | `images/api-swagger.png` | Live FastAPI Swagger documentation page. |
-| `images/dashboard.png` | Live dashboard upload form before submission. |
-| `images/dashboard-results.png` | Live dashboard after all three synthetic resumes were submitted. |
 
 Review the CSV directly at `outputs/ranking_report.csv`. The CLI writes the
 report; the dashboard offers its displayed response rows as a browser CSV

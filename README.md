@@ -232,25 +232,40 @@ python -m unittest discover -s tests -v
 
 ## Screenshots and portfolio evidence
 
-Genuine screenshots captured from the running app and project files are saved in
-[`images/`](images/):
+Genuine browser screenshots captured from the running Next.js dashboard and
+FastAPI Swagger UI are saved in [`images/`](images/). The dashboard screenshots
+show the actual synthetic sample upload, ranking, scores, skill matches, and
+the CSV download control:
 
 | Evidence | Screenshot |
 |---|---|
-| Project folder structure | [`project-structure.png`](images/project-structure.png) |
-| Synthetic sample resumes | [`sample-resumes.png`](images/sample-resumes.png) |
-| Python CLI and actual scores | [`cli-ranking.png`](images/cli-ranking.png) |
-| Ranked candidates and skill gaps | [`candidate-ranking.png`](images/candidate-ranking.png) |
+| Main recruiter dashboard | [`dashboard.png`](images/dashboard.png) |
+| Job details and three selected synthetic resumes | [`resume-upload.png`](images/resume-upload.png) |
+| Uploaded resumes, ranked results, and displayed scores | [`dashboard-results.png`](images/dashboard-results.png) |
+| Candidate ranking | [`candidate-ranking.png`](images/candidate-ranking.png) |
 | Matched and missing skill evidence | [`matched-missing-skills.png`](images/matched-missing-skills.png) |
-| Generated sample CSV | [`csv-report.png`](images/csv-report.png) |
+| CSV download control on the results screen | [`csv-report.png`](images/csv-report.png) |
 | FastAPI Swagger documentation | [`api-swagger.png`](images/api-swagger.png) |
-| Next.js recruiter dashboard | [`dashboard.png`](images/dashboard.png) |
-| Uploaded resumes and displayed results | [`dashboard-results.png`](images/dashboard-results.png) |
-| Git-ready project tree | [`github-ready-structure.png`](images/github-ready-structure.png) |
 
-Screenshots contain synthetic project data only. The generated `outputs/`
-directory is ignored; the committed CSV image is illustrative evidence from
-the actual generated report, not a new applicant record.
+### Main dashboard
+
+![Automated Resume Screening recruiter dashboard](images/dashboard.png)
+
+### Uploading synthetic sample resumes
+
+![Job description, required skills, and selected sample resumes](images/resume-upload.png)
+
+### Candidate rankings, scores, skill matches, and CSV export
+
+![Dashboard results with candidate scores, matched and missing skills, and CSV download button](images/dashboard-results.png)
+
+### FastAPI documentation
+
+![FastAPI Swagger UI](images/api-swagger.png)
+
+Screenshots are genuine captures of the running local application and contain
+synthetic project data only. The CSV screenshot shows the dashboard download
+control; the generated `outputs/` directory remains ignored by Git.
 
 ## Limitations
 
