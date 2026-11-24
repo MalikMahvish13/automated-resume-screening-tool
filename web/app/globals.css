@@ -1,0 +1,39 @@
+:root {
+  color-scheme: light;
+  --ink: #172a3a;
+  --muted: #526579;
+  --line: #d8e1e9;
+  --blue: #145da0;
+  --paper: #f4f7fa;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+.container { width: min(900px, calc(100% - 32px)); margin: 44px auto; }
+header { margin-bottom: 24px; }
+.eyebrow { color: var(--blue); font-size: 12px; font-weight: 700; letter-spacing: .12em; }
+h1 { margin: 8px 0; font-size: clamp(30px, 5vw, 44px); }
+.lede, .hint, footer { color: var(--muted); }
+.panel { background: white; border: 1px solid var(--line); border-radius: 12px; padding: 22px; box-shadow: 0 5px 20px #172a3a0c; }
+.form { display: grid; gap: 18px; }
+label { display: grid; gap: 8px; font-weight: 700; }
+.hint { font-size: 13px; font-weight: 400; }
+input, textarea { width: 100%; padding: 11px 12px; border: 1px solid #aebdca; border-radius: 7px; color: var(--ink); font: inherit; }
+textarea { resize: vertical; }
+button { width: fit-content; padding: 12px 18px; border: 0; border-radius: 7px; background: var(--blue); color: white; cursor: pointer; font-weight: 700; }
+button:disabled { opacity: .6; cursor: wait; }
+.results { margin-top: 32px; }
+.notice { border-left: 4px solid #e4a72c; padding: 10px 14px; background: #fff8e7; color: #4b3b19; }
+.result { margin: 14px 0; }
+.result-heading { display: flex; justify-content: space-between; gap: 20px; align-items: flex-start; }
+.result-heading h3 { margin: 0; }
+.result-heading p { color: var(--blue); font-weight: 700; }
+.result-heading strong { font-size: 26px; white-space: nowrap; }
+.result-heading small { font-size: 14px; color: var(--muted); }
+dl { display: flex; flex-wrap: wrap; gap: 20px; }
+dl div { min-width: 150px; }
+dt { color: var(--muted); font-size: 13px; }
+dd { margin: 4px 0; font-weight: 700; }
+.error, .warning { color: #a32121; }
+footer { margin: 30px 0; font-size: 13px; }
+@media (max-width: 560px) { .container { margin-top: 24px; } .panel { padding: 16px; } }

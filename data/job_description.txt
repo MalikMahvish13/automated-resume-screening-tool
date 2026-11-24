@@ -1,0 +1,12 @@
+We are looking for a Data Analyst to support data-driven business decisions.
+
+Responsibilities:
+- Clean, validate, and analyze business datasets.
+- Write SQL queries and use Python with Pandas for analysis and automation.
+- Build dashboards and communicate insights to stakeholders.
+- Apply statistics and data visualization to explain trends.
+
+Qualifications:
+- Experience with Python, SQL, Pandas, Excel, Tableau, data visualization, and statistics.
+- Clear written and verbal communication.
+- A degree or equivalent practical experience in a quantitative field.

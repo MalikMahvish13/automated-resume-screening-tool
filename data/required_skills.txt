@@ -1,0 +1,8 @@
+# Demonstration must-have skills. Edit for each role; skill strings are phrase-matched.
+Python
+SQL
+Pandas
+Excel
+Tableau
+data visualization
+statistics

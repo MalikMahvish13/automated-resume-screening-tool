@@ -1,0 +1,16 @@
+Alex Morgan
+Data Analyst
+
+Summary
+Data analyst with 4 years of experience turning business data into useful reporting.
+
+Skills
+Python, SQL, Pandas, Excel, Tableau, data visualization, statistics.
+
+Experience
+Built Python and SQL data-cleaning pipelines and automated weekly reporting.
+Created Tableau dashboards and explained trends to non-technical teams.
+Used Pandas and statistics to investigate data quality and business performance.
+
+Education
+BSc Statistics

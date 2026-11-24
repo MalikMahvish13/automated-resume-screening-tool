@@ -1,0 +1,15 @@
+Jordan Lee
+Junior Python Developer
+
+Summary
+Software developer with 2 years of experience building internal tools.
+
+Skills
+Python, Git, REST APIs, FastAPI, PostgreSQL, unit testing, Docker.
+
+Experience
+Created REST APIs using FastAPI and PostgreSQL.
+Maintained Python automation scripts and added unit tests.
+
+Education
+BSc Computer Science
